@@ -26,7 +26,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gw-HN-kPH">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mCb-1l-Nfc">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mCb-1l-Nfc" customClass="RoundedShadowView" customModule="vision_app_dev" customModuleProvider="target">
                                         <rect key="frame" x="20" y="30" width="335" height="60"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bTo-62-6lR">
@@ -56,7 +56,7 @@
                                             <constraint firstAttribute="trailing" secondItem="bTo-62-6lR" secondAttribute="trailing" constant="8" id="hep-2c-jf1"/>
                                         </constraints>
                                     </view>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="029-Dg-C4d">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="029-Dg-C4d" customClass="RoundedShadowButton" customModule="vision_app_dev" customModuleProvider="target">
                                         <rect key="frame" x="20" y="591" width="110" height="36"/>
                                         <color key="backgroundColor" red="0.2550296808126804" green="0.25755472715736039" blue="0.25755472715736039" alpha="0.21944563356164384" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -67,7 +67,7 @@
                                             <color key="titleColor" red="0.97592383620000001" green="0.97666221860000002" blue="0.97603815790000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0DU-ld-Uve">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0DU-ld-Uve" customClass="RoundedShadowImageView" customModule="vision_app_dev" customModuleProvider="target">
                                         <rect key="frame" x="255" y="497" width="100" height="130"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="4YZ-RU-Hxb"/>
@@ -96,6 +96,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="cameraView" destination="3gw-HN-kPH" id="Ozs-0D-w2g"/>
+                        <outlet property="captureImageView" destination="0DU-ld-Uve" id="v0U-6Z-qzK"/>
+                        <outlet property="confidenceLbl" destination="S9I-kj-t8O" id="2A2-OY-U8i"/>
+                        <outlet property="flashBtn" destination="029-Dg-C4d" id="S6d-Nr-LQF"/>
+                        <outlet property="identificationLbl" destination="dlc-8e-UQx" id="EXK-6J-WrS"/>
+                        <outlet property="roundedLblView" destination="mCb-1l-Nfc" id="iUl-xE-nU2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

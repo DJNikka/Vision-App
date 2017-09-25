@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630E7C4E1F79A7DF007202D8 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630E7C4D1F79A7DF007202D8 /* RoundedShadowView.swift */; };
+		630E7C501F79A956007202D8 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630E7C4F1F79A956007202D8 /* RoundedShadowButton.swift */; };
+		630E7C521F79A9EE007202D8 /* RoundedShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630E7C511F79A9EE007202D8 /* RoundedShadowImageView.swift */; };
 		63FA793F1F79118600C880AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FA793E1F79118600C880AC /* AppDelegate.swift */; };
 		63FA79411F79118600C880AC /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FA79401F79118600C880AC /* CameraVC.swift */; };
 		63FA79441F79118600C880AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63FA79421F79118600C880AC /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		630E7C4D1F79A7DF007202D8 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		630E7C4F1F79A956007202D8 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		630E7C511F79A9EE007202D8 /* RoundedShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowImageView.swift; sourceTree = "<group>"; };
 		63FA793B1F79118500C880AC /* vision-app-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vision-app-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63FA793E1F79118600C880AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63FA79401F79118600C880AC /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
@@ -77,6 +83,9 @@
 		63FA79531F7911BD00C880AC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				630E7C4D1F79A7DF007202D8 /* RoundedShadowView.swift */,
+				630E7C4F1F79A956007202D8 /* RoundedShadowButton.swift */,
+				630E7C511F79A9EE007202D8 /* RoundedShadowImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +171,9 @@
 			files = (
 				63FA79411F79118600C880AC /* CameraVC.swift in Sources */,
 				63FA793F1F79118600C880AC /* AppDelegate.swift in Sources */,
+				630E7C4E1F79A7DF007202D8 /* RoundedShadowView.swift in Sources */,
+				630E7C501F79A956007202D8 /* RoundedShadowButton.swift in Sources */,
+				630E7C521F79A9EE007202D8 /* RoundedShadowImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
