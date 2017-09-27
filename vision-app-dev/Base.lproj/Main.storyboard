@@ -82,6 +82,9 @@
                                     <constraint firstAttribute="height" constant="60" id="aFe-2u-Fg8"/>
                                 </constraints>
                             </view>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="BgQ-KT-FUf">
+                                <rect key="frame" x="295" y="572" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -95,7 +98,9 @@
                             <constraint firstItem="3gw-HN-kPH" firstAttribute="trailing" secondItem="6Ur-wb-EoS" secondAttribute="trailing" id="hFn-Q8-vhs"/>
                             <constraint firstItem="6Ur-wb-EoS" firstAttribute="bottom" secondItem="029-Dg-C4d" secondAttribute="bottom" constant="20" id="jap-gz-yJM"/>
                             <constraint firstItem="3gw-HN-kPH" firstAttribute="leading" secondItem="6Ur-wb-EoS" secondAttribute="leading" id="kAT-uc-fSX"/>
+                            <constraint firstItem="BgQ-KT-FUf" firstAttribute="centerY" secondItem="0DU-ld-Uve" secondAttribute="centerY" id="pFz-6i-xXR"/>
                             <constraint firstItem="6Ur-wb-EoS" firstAttribute="trailing" secondItem="mCb-1l-Nfc" secondAttribute="trailing" constant="20" id="xRQ-xh-FcR"/>
+                            <constraint firstItem="BgQ-KT-FUf" firstAttribute="centerX" secondItem="0DU-ld-Uve" secondAttribute="centerX" id="zVM-wr-t1H"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Ur-wb-EoS"/>
                     </view>
@@ -106,6 +111,7 @@
                         <outlet property="flashBtn" destination="029-Dg-C4d" id="S6d-Nr-LQF"/>
                         <outlet property="identificationLbl" destination="dlc-8e-UQx" id="EXK-6J-WrS"/>
                         <outlet property="roundedLblView" destination="mCb-1l-Nfc" id="iUl-xE-nU2"/>
+                        <outlet property="spinner" destination="BgQ-KT-FUf" id="YJF-k1-MJt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
